@@ -1,11 +1,6 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1332573268.652404:@value{	I"length:EFi!I"digest;
-F"%ea612b95c98c55049eca1ba3ebb5493fI"source;
-FI"!/*
- * This is a manifest file that'll automatically include all the stylesheets available in this directory
- * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
- * the top of the compiled file, but it's generally better to create a new file per style scope.
-*/
-/* line 1, ../../app/assets/stylesheets/scaffolds.css.scss */
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1332573268.6536891:@value{	I"length:EFiçI"digest;
+F"%d053d549ea9d5c9858ee5ba24688ac02I"source;
+FI"ç/* line 1, ../../app/assets/stylesheets/scaffolds.css.scss */
 body {
   background-color: #fff;
   color: #333;
@@ -86,4 +81,4 @@ div.field, div.actions {
 }
 ;
 FI"_version;
-F"%7f4355fd63880e0ac2fa259e0025933f
+F"%71deee6d8851cde8246b13e4eaed3ec4
