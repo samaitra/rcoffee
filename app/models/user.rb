@@ -1,5 +1,12 @@
 require 'digest'
 class User < ActiveRecord::Base
+  attr_accessor :password
+  attr_accessible :username, :password, :password_confirmation
+
+  validates :password, :presence => true,
+                       :confirmation => true,
+                       :length => {:within => 6 ..40}
+
 def self.authenticate(username, submitted_password)
     user = find_by_username(username)
     return nil  if user.nil?
