@@ -1,6 +1,6 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1333174899.02017:@value{	I"length:EFi!I"digest;
-F"%ea612b95c98c55049eca1ba3ebb5493fI"source;
-FI"!/*
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1339328011.22409:@value{	I"length:EFi·	I"digest;
+F"%c8f595180520ce32e020cca182d34492I"source;
+FI"·	/*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
@@ -48,18 +48,39 @@ div.field, div.actions {
 }
 
 /* line 30, ../../app/assets/stylesheets/scaffolds.css.scss */
+div#container {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 833px;
+}
+
+/* line 37, ../../app/assets/stylesheets/scaffolds.css.scss */
+header {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 833px;
+}
+
+/* line 43, ../../app/assets/stylesheets/scaffolds.css.scss */
+nav {
+  display: inline;
+}
+
+/* line 46, ../../app/assets/stylesheets/scaffolds.css.scss */
 #notice {
   color: green;
 }
 
-/* line 33, ../../app/assets/stylesheets/scaffolds.css.scss */
+/* line 49, ../../app/assets/stylesheets/scaffolds.css.scss */
 .field_with_errors {
   padding: 2px;
   background-color: red;
   display: table;
 }
 
-/* line 38, ../../app/assets/stylesheets/scaffolds.css.scss */
+/* line 54, ../../app/assets/stylesheets/scaffolds.css.scss */
 #error_explanation {
   width: 450px;
   border: 2px solid red;
@@ -68,7 +89,7 @@ div.field, div.actions {
   margin-bottom: 20px;
   background-color: #f0f0f0;
 }
-/* line 45, ../../app/assets/stylesheets/scaffolds.css.scss */
+/* line 61, ../../app/assets/stylesheets/scaffolds.css.scss */
 #error_explanation h2 {
   text-align: left;
   font-weight: bold;
@@ -79,11 +100,11 @@ div.field, div.actions {
   background-color: #c00;
   color: #fff;
 }
-/* line 54, ../../app/assets/stylesheets/scaffolds.css.scss */
+/* line 70, ../../app/assets/stylesheets/scaffolds.css.scss */
 #error_explanation ul li {
   font-size: 12px;
   list-style: square;
 }
 ;
 FI"_version;
-F"%6193daa695279c50def920bb8f87596b
+F"%68fcf2c78adebd10a7c5a49554336434

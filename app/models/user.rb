@@ -7,10 +7,10 @@ class User < ActiveRecord::Base
                        :confirmation => true,
                        :length => {:within => 6 ..40}
 
-def self.authenticate(username, submitted_password)
+def self.authenticate(username, password)
     user = find_by_username(username)
     return nil  if user.nil?
-    return user if user.has_password?(submitted_password)
+    return user if user.has_password?(password)
   end
 
   def self.authenticate_with_salt(id, cookie_salt)
@@ -20,8 +20,8 @@ def self.authenticate(username, submitted_password)
   
   before_save :encrypt_password
 
-  def has_password?(submitted_password)
-    encrypted_password == encrypt(submitted_password)
+  def has_password?(password)
+    encrypted_password == encrypt(password)
   end
 
   private

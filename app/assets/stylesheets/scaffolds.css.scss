@@ -27,6 +27,22 @@ div {
   &.field, &.actions {
     margin-bottom: 10px; } }
 
+div#container {
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+   width: 833px;
+	}
+	
+header {
+	   margin-left: auto;
+	   margin-right: auto;
+	   text-align: left;
+	   width: 833px;
+		}
+nav {
+display:inline;
+}
 #notice {
   color: green; }
 

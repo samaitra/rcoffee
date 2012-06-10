@@ -1,0 +1,22 @@
+<h1>Listing Products</h1>
+ 
+<table>
+  <tr>
+	<th>Id</th>
+	<th>Title</th>
+    <th>Description</th>
+    <th>Price</th>
+	<% @products.each do |product| %>
+	  <tr>
+	    <td><%= product.id %></td>
+		<td><%= product.title %></td>
+	    <td><%= product.description %></td>
+	    <td><%= product.price %></td>
+	    <td><%= link_to 'Show', :controller => "product", :action => "show", :id => product %></td>
+	  	<td><%= link_to 'Show', product %></td>
+		
+	</tr>
+	<% end %>
+	</table>
+
+   </tr>

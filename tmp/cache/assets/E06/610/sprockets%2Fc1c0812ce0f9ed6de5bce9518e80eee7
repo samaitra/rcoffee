@@ -1,6 +1,6 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1332573268.6536891:@value{	I"length:EFiçI"digest;
-F"%d053d549ea9d5c9858ee5ba24688ac02I"source;
-FI"ç/* line 1, ../../app/assets/stylesheets/scaffolds.css.scss */
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1337534982.608075:@value{	I"length:EFi}I"digest;
+F"%266066c20df4460c456d78ebc40591d8I"source;
+FI"}/* line 1, ../../app/assets/stylesheets/scaffolds.css.scss */
 body {
   background-color: #fff;
   color: #333;
@@ -43,18 +43,39 @@ div.field, div.actions {
 }
 
 /* line 30, ../../app/assets/stylesheets/scaffolds.css.scss */
+div#container {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 833px;
+}
+
+/* line 37, ../../app/assets/stylesheets/scaffolds.css.scss */
+header {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 833px;
+}
+
+/* line 43, ../../app/assets/stylesheets/scaffolds.css.scss */
+nav {
+  display: inline;
+}
+
+/* line 46, ../../app/assets/stylesheets/scaffolds.css.scss */
 #notice {
   color: green;
 }
 
-/* line 33, ../../app/assets/stylesheets/scaffolds.css.scss */
+/* line 49, ../../app/assets/stylesheets/scaffolds.css.scss */
 .field_with_errors {
   padding: 2px;
   background-color: red;
   display: table;
 }
 
-/* line 38, ../../app/assets/stylesheets/scaffolds.css.scss */
+/* line 54, ../../app/assets/stylesheets/scaffolds.css.scss */
 #error_explanation {
   width: 450px;
   border: 2px solid red;
@@ -63,7 +84,7 @@ div.field, div.actions {
   margin-bottom: 20px;
   background-color: #f0f0f0;
 }
-/* line 45, ../../app/assets/stylesheets/scaffolds.css.scss */
+/* line 61, ../../app/assets/stylesheets/scaffolds.css.scss */
 #error_explanation h2 {
   text-align: left;
   font-weight: bold;
@@ -74,11 +95,11 @@ div.field, div.actions {
   background-color: #c00;
   color: #fff;
 }
-/* line 54, ../../app/assets/stylesheets/scaffolds.css.scss */
+/* line 70, ../../app/assets/stylesheets/scaffolds.css.scss */
 #error_explanation ul li {
   font-size: 12px;
   list-style: square;
 }
 ;
 FI"_version;
-F"%71deee6d8851cde8246b13e4eaed3ec4
+F"%b2b27ad65441d4e4b172687efd84d4d9

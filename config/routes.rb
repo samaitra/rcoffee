@@ -1,10 +1,19 @@
 Rcoffee::Application.routes.draw do
-  get "sessions/new"
+  get "product/create"
 
+  get "product/show"
+
+  get "product/delete"
+
+  get "product/index"
+   
+  get "sessions/new"
+  resources :product
   resources :users
 
   get "home/index"
   root :to => "home#index"
+  
   resources :sessions, :only => [:new, :create, :destroy]
 
   match '/signup',  :to => 'users#new'
