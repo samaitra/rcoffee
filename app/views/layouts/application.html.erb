@@ -7,7 +7,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
- <div class="container">
+ <div class="container" id="container">
+
+
   <div class="masthead">
         <h3 class="muted">Rcoffee</h3>
         <div class="navbar">
@@ -16,23 +18,25 @@
               <ul class="nav">
                 <li class="active"><%= link_to("Home",:controller => 'home', :action => 'index')%></li>
                 <li><a href="#">Cart</a></li>
-                <li><a href="#">Sign Up</a></li>
+                <li><%= link_to "Sign up", :controller => "users", :action => "new"%></li>
+                <li><%= link_to "Login", :controller => "sessions", :action => "new"%></li>
+
                </ul>
             </div>
           </div>
         </div><!-- /.navbar -->
       </div>
 
-      <section class="round">
-		<div id="container">
         <% flash.each do |key, value| %>
           <div class="flash <%= key %>"><%= value %></div>
         <% end %>
         <%= yield %>
-		</div>
-      </section>
 
-<footer></footer>
- </div>
+        <div class="footer">
+         <p>&copy; Company 2013</p>
+       </div>
+    </div>
+
+   </div>
 </body>
 </html>
