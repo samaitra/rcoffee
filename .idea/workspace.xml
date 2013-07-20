@@ -14,9 +14,7 @@
     <option name="historyRevisionsNumber" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6797410-c265-4df5-b722-7f5a0ebc5113" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
-    </list>
+    <list default="true" id="b6797410-c265-4df5-b722-7f5a0ebc5113" name="Default" comment="" />
     <ignored path="rcoffee.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b6797410-c265-4df5-b722-7f5a0ebc5113" time="1374351951133" ignored="false" />
