@@ -15,7 +15,7 @@
     </data-source>
     <data-source source="LOCAL" name="Rails rcoffee: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="9c6826ef-36de-4c4a-b21f-63655490c5d9">
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$USER_HOME$/git/rcoffee/db/test.sqlite3</jdbc-url>
       <libraries>
         <library>
           <url>file://$USER_HOME$/Library/Preferences/IntelliJIdea10/jdbc-drivers/zentus-sqlite-license.txt</url>
