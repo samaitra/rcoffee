@@ -16,10 +16,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b6797410-c265-4df5-b722-7f5a0ebc5113" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rcoffee.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b6797410-c265-4df5-b722-7f5a0ebc5113" time="1374351951133" ignored="false" />
+    <file path="/.travis.yml" changelist="b6797410-c265-4df5-b722-7f5a0ebc5113" time="1374356505077" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +147,7 @@
       <file leaf-file-name=".travis.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="40" selection-start="374" selection-end="374" vertical-scroll-proportion="0.390625">
+            <state line="9" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="0.234375">
               <folding />
             </state>
           </provider>
@@ -799,7 +801,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="40" selection-start="374" selection-end="374" vertical-scroll-proportion="0.390625">
+        <state line="9" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="0.234375">
           <folding />
         </state>
       </provider>
