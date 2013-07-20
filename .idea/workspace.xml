@@ -21,7 +21,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b6797410-c265-4df5-b722-7f5a0ebc5113" time="1374351951133" ignored="false" />
     <file path="/.travis.yml" changelist="b6797410-c265-4df5-b722-7f5a0ebc5113" time="1374356505077" ignored="false" />
-    <file path="/README" changelist="b6797410-c265-4df5-b722-7f5a0ebc5113" time="1374357789451" ignored="false" />
+    <file path="/README" changelist="b6797410-c265-4df5-b722-7f5a0ebc5113" time="1374357990494" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +156,7 @@
       <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.026041666">
+            <state line="6" column="5" selection-start="149" selection-end="149" vertical-scroll-proportion="0.15625">
               <folding />
             </state>
           </provider>
@@ -802,7 +802,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.026041666">
+        <state line="6" column="5" selection-start="149" selection-end="149" vertical-scroll-proportion="0.15625">
           <folding />
         </state>
       </provider>
